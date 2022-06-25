@@ -1,0 +1,38 @@
+
+.b3{
+    height:80px;
+    width: 80px;
+    border: 1px solid;
+    background-color: #444343;
+}
+
+#peça{
+    margin-left: 80px;
+    height: 80px;
+    width: 80px;
+    animation: cavalo  16s infinite;
+    position: absolute;
+}
+
+
+
+
+@keyframes cavalo{
+    0%{margin-top: 0px;margin-left: 80px;}
+    6.25%{margin-top: 160px;margin-left: 80px;}
+    12.5%{margin-top: 160px;margin-left: 160px;}
+    18.75%{margin-top: 340px;margin-left: 160px;}
+    25%{margin-top: 340px;margin-left: 240px;}
+    31.25%{margin-top: 340px;margin-left:420px}
+    37.5%{margin-top: 420px;margin-left: 420px;}
+    43.75%{margin-top: 600px;margin-left: 420px;}
+    50%{margin-top: 600px;margin-left: 500px;}/*final*/
+    56.25%{margin-top: 600px;margin-left: 420px;}
+    62.5%{margin-top: 420px;margin-left: 420px;}
+    68.75%{margin-top: 340px;margin-left: 420px;}
+    75%{margin-top: 340px;margin-left: 240px;}
+    81.25%{margin-top: 340px;margin-left: 160px}
+    87.5%{margin-top:160px;margin-left: 160px}
+    93.75%{margin-top: 160px;margin-left: 80px;}
+    100%{margin-top: 0px;margin-left: 80px;}
+}
